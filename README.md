@@ -1,4 +1,4 @@
-# Angular AuthWebsite</br>
+# AngularAuthWebsite</br>
 This short project implements a user authentication system, similar to one I have previously built in PHP  [https://github.com/spiccoli/authWebsite](https://github.com/spiccoli/authWebsite), but this time using the MEAN stack:</br>
 
 MongoDB: Stores user data.</br>
