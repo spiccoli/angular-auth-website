@@ -5,8 +5,8 @@ MongoDB: Stores user data.</br>
 Express.js: Handles HTTP requests and builds the backend API for authentication.</br>
 AngularJS: Creates the frontend UI for the sign-up and sign-in forms.</br>
 Node.js: Powers the backend and manages interactions with the database.</br></br>
-Features:</br></br>
-<hr style="border: none; border-top: 2px solid gray; width: 50%; margin: 20px auto;">
+Features:<hr style="border: none; border-top: 2px solid gray; width: 5%; margin: 5px auto;">
+</br></br>
 
 Validation: Both client-side (AngularJS) and server-side (Express.js) validation ensure data integrity. (aka not allowing repeated emails, empty fields, invalid inputs...)</br></br>
 Security: Passwords are hashed for basic protection.</br></br>
