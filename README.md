@@ -6,8 +6,7 @@ Express.js: Handles HTTP requests and builds the backend API for authentication.
 AngularJS: Creates the frontend UI for the sign-up and sign-in forms.</br>
 Node.js: Powers the backend and manages interactions with the database.</br></br>
 Key Features:</br></br>
-</br>
-Validation: Both client-side (AngularJS) and server-side (Express.js) validation ensure data integrity.</br>
+Validation: Both client-side (AngularJS) and server-side (Express.js) validation ensure data integrity.</br></br>
 Security: Passwords are hashed for basic protection.</br>
 Things I want to add:</br>
 sessions/tokens used to manage authentication. JWT KEYS
