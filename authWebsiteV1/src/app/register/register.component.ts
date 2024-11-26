@@ -63,7 +63,7 @@ export class RegisterComponent {
       .post('http://localhost:7777/register', formData)
       .pipe(
         catchError((error) => {
-          alert('An error occurred: ' + error.message);
+          console.log('An error occurred: ' + error.message);
           return of(null);
         })
       )
