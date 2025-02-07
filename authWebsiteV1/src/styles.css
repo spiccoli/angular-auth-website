@@ -3,3 +3,25 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
+body {
+    /* A dark, animated gradient background */
+    background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+    background-size: 200% 200%;
+    animation: gradientAnimation 12s ease infinite;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

@@ -4,6 +4,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const User = require('./models/User'); // Import the User model
+const { isInterfaceDeclaration } = require('typescript');
 
 app.use(cors());
 app.use(express.json()); // For parsing JSON data
@@ -40,7 +41,6 @@ app.post('/login', async (req, res) => {
 
     // If successful, send a success response (you could also send a JWT token here)
     res.status(200).json({ message: 'Login successful', userId: user._id });
-
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Error logging in', details: error.message });
