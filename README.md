@@ -6,6 +6,8 @@ Express.js: Handles HTTP requests and builds the backend API for authentication.
 AngularJS: Creates the frontend UI for the sign-up and sign-in forms.</br>
 Node.js: Powers the backend and manages interactions with the database.</br></br>
 <hr style="border: none; border-top: 1px solid gray; width: 20px;">
+![project-2](https://github.com/user-attachments/assets/fc7d8a41-dfda-4f78-aa9e-4879051ced45)
+
 Features:</br></br>
 
 Validation: Both client-side (AngularJS) and server-side (Express.js) validation ensure data integrity. (aka not allowing repeated emails, empty fields, invalid inputs...)</br></br>
